@@ -1,15 +1,13 @@
 specVersion: 0.2.0
-name: shiden-subql-starter
+name: westend-subql-starter
 version: 0.0.4
-description: This project can be use as a starting point for shiden network.
-repository: https://github.com/subquery/shiden-subql-starter
+description: This project can be use as a starting point for westend network.
+repository: https://github.com/subquery/westend-subql-starter
 schema:
   file: ./schema.graphql
 network:
-  endpoint: wss://shiden.api.onfinality.io/public-wss
-  genesisHash: '0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108'
-  chaintypes:
-    file: ./dist/chaintypes.js
+  endpoint: wss://westend.api.onfinality.io/public-ws
+  genesisHash: '0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e'
 dataSources:
   - kind: substrate/Runtime
     startBlock: 1
