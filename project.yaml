@@ -1,13 +1,13 @@
 specVersion: 0.2.0
-name: nodle-subql-starter
+name: parallel-heiko-subql-starter
 version: 0.0.4
-description: This project can be use as a starting point for nodle network.
-repository: https://github.com/subquery/nodle-subql-starter
+description: This project can be use as a starting point for parallel-heiko network.
+repository: https://github.com/subquery/parallel-heiko-subql-starter
 schema:
   file: ./schema.graphql
 network:
-  endpoint: wss://nodle.api.onfinality.io/public-ws
-  genesisHash: '0xa3d114c2b8d0627c1aa9b134eafcf7d05ca561fdc19fb388bb9457f81809fb23'
+  endpoint: wss://parallel-heiko.api.onfinality.io/public-ws
+  genesisHash: '0x64a1c658a48b2e70a7fb1ad4c39eea35022568c20fc44a6e2e3d0a57aee6053b'
   chaintypes:
     file: ./dist/chaintypes.js
 dataSources:

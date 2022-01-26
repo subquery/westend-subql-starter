@@ -1,7 +1,7 @@
 {
-  "name": "nodle-subql-starter",
+  "name": "parallel-heiko-subql-starter",
   "version": "0.0.4",
-  "description": "This SubQuery project can be use as a starting point for nodle network",
+  "description": "This SubQuery project can be use as a starting point for parallel-heiko network",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
@@ -9,8 +9,8 @@
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
-  "homepage": "https://github.com/subquery/nodle-subql-starter",
-  "repository": "github:subquery/nodle-subql-starter",
+  "homepage": "https://github.com/subquery/parallel-heiko-subql-starter",
+  "repository": "github:subquery/parallel-heiko-subql-starter",
   "files": [
     "dist",
     "schema.graphql",
@@ -22,7 +22,8 @@
     "@polkadot/api": "^7",
     "@subql/types": "latest",
     "typescript": "^4.1.3",
-    "@subql/cli": "latest"
+    "@subql/cli": "latest",
+    "@parallel-finance/type-definitions": "latest"
   },
   "exports": {
     "chaintypes": "src/chaintypes.ts"
