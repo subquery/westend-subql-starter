@@ -1,3 +1,9 @@
-import { typesBundleForPolkadot } from '@parallel-finance/type-definitions';
+import type { OverrideBundleDefinition } from "@polkadot/types/types";
 
-export default { typesBundle: typesBundleForPolkadot };
+import { unique } from "@unique-nft/types/definitions";
+
+export default {
+    typesBundle: {
+        rpc: { unique: unique.rpc },
+    } as OverrideBundleDefinition,
+};

@@ -1,7 +1,7 @@
 {
-  "name": "parallel-heiko-subql-starter",
+  "name": "quartz-subql-starter",
   "version": "0.0.4",
-  "description": "This SubQuery project can be use as a starting point for parallel-heiko network",
+  "description": "This SubQuery project can be use as a starting point for quartz network",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
@@ -9,8 +9,8 @@
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
-  "homepage": "https://github.com/subquery/parallel-heiko-subql-starter",
-  "repository": "github:subquery/parallel-heiko-subql-starter",
+  "homepage": "https://github.com/subquery/quartz-subql-starter",
+  "repository": "github:subquery/quartz-subql-starter",
   "files": [
     "dist",
     "schema.graphql",
@@ -23,7 +23,7 @@
     "@subql/types": "latest",
     "typescript": "^4.1.3",
     "@subql/cli": "latest",
-    "@parallel-finance/type-definitions": "latest"
+    "@unique-nft/types": "latest"
   },
   "exports": {
     "chaintypes": "src/chaintypes.ts"
