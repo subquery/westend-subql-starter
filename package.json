@@ -1,7 +1,7 @@
 {
-  "name": "quartz-subql-starter",
+  "name": "shiden-subql-starter",
   "version": "0.0.4",
-  "description": "This SubQuery project can be use as a starting point for quartz network",
+  "description": "This SubQuery project can be use as a starting point for shiden network",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc -b",
@@ -9,8 +9,8 @@
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen"
   },
-  "homepage": "https://github.com/subquery/quartz-subql-starter",
-  "repository": "github:subquery/quartz-subql-starter",
+  "homepage": "https://github.com/subquery/shiden-subql-starter",
+  "repository": "github:subquery/shiden-subql-starter",
   "files": [
     "dist",
     "schema.graphql",
