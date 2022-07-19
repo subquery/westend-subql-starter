@@ -1,14 +1,21 @@
-specVersion: 0.2.0
+specVersion: 1.0.0
 name: westend-subql-starter
-version: 0.0.4
+version: 0.0.5
+runner:
+  node:
+    name: '@subql/node'
+    version: '*'
+  query:
+    name: '@subql/query'
+    version: '*'
 description: This project can be use as a starting point for westend network.
-repository: https://github.com/subquery/westend-subql-starter
+repository: 'https://github.com/subquery/westend-subql-starter'
 schema:
   file: ./schema.graphql
 network:
-  endpoint: wss://westend.api.onfinality.io/public-ws
-  genesisHash: '0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e'
-  dictionary: https://api.subquery.network/sq/subquery/westend-dictionary
+  chainId: '0xe143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e'
+  endpoint: 'wss://westend.api.onfinality.io/public-ws'
+  dictionary: 'https://api.subquery.network/sq/subquery/westend-dictionary'
 dataSources:
   - kind: substrate/Runtime
     startBlock: 1
